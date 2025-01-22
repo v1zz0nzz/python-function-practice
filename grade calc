@@ -1,0 +1,13 @@
+def grade_calc(percent):
+    if percent >= 90:
+        print("Your grade is an A!")
+    if percent <= 89 and percent == 80:
+        print("Your grade is a B!")
+    if percent <= 79 and percent == 70:
+        print("Your grade is a C!")
+    if percent <= 69 and percent == 60:
+        print("Your grade is a D!")
+    if percent < 60:
+        print("Your grade is an F!")
+
+grade_calc(59)
