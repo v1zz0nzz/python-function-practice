@@ -1,0 +1,9 @@
+def sum_even_numbers(max_num):
+    potato = 1
+    for i in range(1, max_num+1):
+        if i%2==0:
+             print("even")
+        potato += i
+    return potato
+
+print(sum_even_numbers(6))
