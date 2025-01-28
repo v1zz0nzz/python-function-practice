@@ -1,0 +1,9 @@
+def find_smallest(x, y, z):
+    if x < y:
+        print("The smallest number is", x)
+    elif y < z:
+        print("The smallest number is", y)
+    elif z < x:
+        print("The smallest number is", z)
+
+find_smallest(2, 1, 0)
