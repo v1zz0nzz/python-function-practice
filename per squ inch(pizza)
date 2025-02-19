@@ -1,0 +1,5 @@
+def pizza (diameter, price):
+    radius = diameter/2
+    return 3.14 * radius**2 / price
+
+print (pizza(5, 10))
