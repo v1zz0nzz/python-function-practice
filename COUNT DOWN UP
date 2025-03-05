@@ -1,0 +1,6 @@
+def count_down_up(n):
+    for i in range(n,0,-1):
+        print (i)
+    for i in range(0,4):
+        print (i)
+count_down_up(3)
